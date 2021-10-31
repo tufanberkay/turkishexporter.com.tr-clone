@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="flag-icon-css-master/css/flag-icon.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    
+    <div class="header-contact">
+        <div class="header-left-contact">
+            <i class="fas fa-user-headset"></i>
+            <a href="tel:444444">444 44 44</a>
+            <a href="#" class="teklif">Teklif Talebi Oluştur</a>
+        </div>
+        <div class="header-right-contact">
+            <a href="#">PREMIUM UYE OL</a>
+        </div>
+    </div>
+
+    <div class="border-bottom-2"></div>
+
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"><img src="img/te-logo.png" alt=""></a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Firma, talep veya ürün arayın...">
+            <i class="far fa-search"></i>
+        </div>
+        <div class="header-right">
+            <div class="not-logged-in" id="login">
+                <div class="visible">
+                    <i class="far fa-user"></i>
+                    <abbr title="ÜCRETSİZ ÜYE OL VEYA GİRİŞ YAP"><strong>ÜCRETSİZ ÜYE OL </strong><span>veya</span><strong> GİRİŞ YAP</strong></abbr>
+                </div>
+                <ul id="login-bar">
+                    <li><a href="#">Ücretsiz Üye Ol</a></li>
+                    <li><a href="#">Giriş Yap</a></li>
+                </ul>
+            </div>
+            <a class="mobile-size" href="#"><i class="mobile-bell far fa-bell"></i></a>
+            <div class="languages" id="lang">
+                <span class="language"><span class="flag-icon flag-icon-tr"></span><span class="text">TR</span><i class="far fa-chevron-down"></i></span>
+                <ul id="lang-bar">
+                    <li><span class="flag-icon flag-icon-gb"></span><a href="#">EN</a></li>
+                    <li><span class="flag-icon flag-icon-fr"></span><a href="#">FR</a></li>
+                    <li><span class="flag-icon flag-icon-es"></span><a href="#">ES</a></li>
+                    <li><span class="flag-icon flag-icon-pt"></span><a href="#">PT</a></li>
+                    <li><span class="flag-icon flag-icon-ru"></span><a href="#">RU</a></li>
+                    <li><span class="flag-icon flag-icon-sa"></span><a href="#">AR</a></li>
+                </ul>
+            </div>
+            <a class="mobile-size" href="#"><i class="mobile-bars fas fa-bars" onclick="myFunction()"></i></a>
+        </div>
+    </div>
+
+    <div class="mobile-header">
+        <div class="not-logged-in" id="login">
+            <div style="cursor: pointer;" onclick="clickfunc()" class="visible">
+                <i class="far fa-user"></i>
+                <abbr title="ÜCRETSİZ ÜYE OL VEYA GİRİŞ YAP"><strong>ÜCRETSİZ ÜYE OL </strong><span>veya</span><strong> GİRİŞ YAP</strong></abbr>
+            </div>
+            <ul id="login-bar2">
+                <li><a href="#">Ücretsiz Üye Ol</a></li>
+                <li><a href="#">Giriş Yap</a></li>
+            </ul>
+        </div>
+        <div class="mobile-header-links">
+            <a href="#">FİRMALAR</a>
+            <a href="#">TALEPLER</a>
+            <a href="#">ÜRÜNLER</a>
+            <a href="#">KURUMSAL</a>
+            <a href="#">HİZMETLERİMİZ</a>
+            <a href="#">İŞLEM MERKEZİ</a>
+            <a href="#">İHRACAT BİLGİ MERKEZİ</a>
+            <a href="#">HIZLI ERİŞİM</a>
+            <a href="#">YURT İÇİ TALEPLER</a>
+            <a href="#">İLETİŞİM</a>
+        </div>
+    </div>
+
+    <div class="border-bottom-1"></div>
+
+    <div class="mobile-search">
+        <div>
+            <input type="text" placeholder="Firma, talep ya da ürün arayın...">
+            <a class="mobile-search-link" href="#"><i class="far fa-search"></i>ARA</a>
+        </div>
+    </div>
+
+    <div class="border-bottom-1"></div>
+
+    <div class="header-navbar">
+        <ul>
+            <li><a href="#">FİRMALAR</a></li>
+            <li><a href="#">TALEPLER</a></li>
+            <li><a href="#">ÜRÜNLER</a></li>
+            <li><a href="#">YURT İÇİ TALEPLER</a></li>
+            <li><a href="#">İLETİŞİM</a></li>
+        </ul>
+    </div>
+
+    <div class="slider">
+        <div class="slide fade">
+            <img src="img/pickawood-gf8e6XvG_3E-unsplash.jpg" width="100%" alt="">
+        </div>
+        <div class="slide fade">
+            <img src="https://i.picsum.photos/id/521/1925/500.jpg?hmac=_B7fCFPCYs00zK5btHiYSf1g_de8u6Le4MnHa5N9prc" width="100%" alt="">
+        </div>
+        <div class="slide fade">
+            <img src="https://i.picsum.photos/id/882/1930/500.jpg?hmac=xSw2qKzd460l7uEIgKSmgKxHTDP_JwDv09fT6_TBWdE" width="100%" alt="">
+        </div>
+
+        <!-- Next and Previous -->
+        <div class="prev" onclick="plusSlides(-1)">
+            <i class="far fa-chevron-left"></i>
+        </div>
+        <div class="next" onclick="plusSlides(1)">
+            <i class="far fa-chevron-right"></i>
+        </div>
+        <div class="categories">
+            <div class="cat-header">KATEGORİLER</div>
+            <ul>
+                <li><a href="#"><i class="far fa-boxes"></i>Ambalaj Kağıt Matbaa</a></li>
+                <li><a href="#"><i class="fas fa-child"></i>Bebek Ürünleri ve Aksesuarlar</a></li>
+                <li><a href="#"><i class="fas fa-glass-champagne"></i>Beyaz Eşya Küçük Ev Aletleri</a></li>
+                <li><a href="#"><i class="fas fa-laptop"></i>Bilişim ve İletişim Teknolojileri</a></li>
+                <li><a href="#"><i class="fas fa-recycle"></i>Çevre ve Geri Dönüşüm</a></li>
+                <li><a href="#"><i class="fas fa-ship"></i>Deniz Araç ve Gereçleri</a></li>
+                <li><a href="#"><i class="fas fa-shoe-prints"></i>Deri Ürünleri ve Ayakkabı</a></li>
+                <li><a href="#"><i class="fas fa-bolt"></i>Elektrik ve Elektronik</a></li>
+            </ul>
+            <a class="all" href="#"><i class="fas fa-bars"></i>Tüm Kategoriler</a>
+        </div>
+    </div>
+
+    
+
+    <section class="requests">
+        <div class="topic">
+            <h2>Son Talepler</h2>
+            <div class="topic-links">
+                <a class="selected" href="#">Tüm Talepler</a>
+                <a href="#">Satın Alma Talepleri</a>
+                <a href="#">Satış Teklifleri</a>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <th class="country"><span>Ülke</span></th>
+                <th class="request-topic"><span>Talep Başlığı</span></th>
+                <th class="type"><span>Tip</span></th>
+                <th class="date"><span>Tarih</span></th>
+                <th class="credit"><span>Kredi</span></th>
+            </tr>
+            <tr>
+                <td><span class="flag-icon flag-icon-tr"></span></td>
+                <td>
+                    <h4><a href="#">Lojistik hizmeti vermekteyiz</a></h4>
+                    <p>
+                        İhracat veya ithalat taleplerinize istinaden tüm nakliye sürecinizin operasyonunun organize edilmesi ve sorunsuz bir hizmet sunulması imkanı.
+                    </p>
+                </td>
+                <td class="leads-info sale"><p>Satım</p></td>
+                <td class="time">6 saat önce</td>
+                <td class="price">
+                    <div class="price-btn"><i class="fas fa-handshake credit"></i>Ücretsiz</div>
+                </td>
+                <td class="details"><a href="#">DETAYLAR</a></td>
+            </tr>
+            
+            <tr>
+                <td><span class="flag-icon flag-icon-tr"></span></td>
+                <td>
+                    <h4><a href="#">Dökme maske teklifi almak istiyoruz<a></h4>
+                    <p>
+                        maske arayışımız bulunmaktadır
+                    </p>
+                </td>
+                <td class="leads-info purchase"><p>Alım</p></td>
+                <td class="time">6 saat önce</td>
+                <td class="price">
+                    <div class="price-btn"><i class="fas fa-handshake credit"></i>Ücretsiz</div>
+                </td>
+                <td class="details"><a href="#">DETAYLAR</a></td>
+            </tr>
+
+            <tr>
+                <td><span class="flag-icon flag-icon-tr"></span></td>
+                <td>
+                    <h4><a href="#">Kuru soğan almak istiyoruz</a></h4>
+                    <p>
+                        Libya için kuru soğan almak istiyoruz
+                    </p>
+                </td>
+                <td class="leads-info purchase"><p>Alım</p></td>
+                <td class="time">7 saat önce</td>
+                <td class="price">
+                    <div class="price-btn"><i class="fas fa-handshake credit"></i>Ücretsiz</div>
+                </td>
+                <td class="details"><a href="#">DETAYLAR</span></td>
+            </tr>
+
+            <tr>
+                <td><span class="flag-icon flag-icon-tr"></span></td>
+                <td>
+                    <h4><a href="#">Kumaş almak istiyoruz</a></h4>
+                    <p>
+                        Toptan kumaş almak istiyoruz
+                    </p>
+                </td>
+                <td class="leads-info purchase"><p>Alım</p></td>
+                <td class="time">7 saat önce</td>
+                <td class="price">
+                    <div class="price-btn"><i class="fas fa-handshake credit"></i>Ücretsiz</div>
+                </td>
+                <td class="details"><a href="#">DETAYLAR</span></td>
+            </tr>
+
+            <tr>
+                <td><span class="flag-icon flag-icon-fr"></span></td>
+                <td>
+                    <h4><a href="#">Looking for Fashion Accessories to import to France</a></h4>
+                    <p>
+                        Su anda da 3 4 haftada bir alinmak uzere 250000 parca urun ariyorum. Sizlerden ricam detayli gorusebilmemiz icin, email adresiniz ve telefon numaraniz ile donus yaparsaniz, bir tanitim emaili gonderebilir ve sizleri arayabilirim
+                    </p>
+                </td>
+                <td class="leads-info purchase"><p>Alım</p></td>
+                <td class="time">8 saat önce</td>
+                <td class="price">
+                    <div class="coin"><i class="fas fa-coins credit"></i>10</div>
+                </td>
+                <td class="details"><a href="#">DETAYLAR</a></td>
+            </tr>
+
+            <tr>
+                <td><span class="flag-icon flag-icon-tr"></span></td>
+                <td>
+                    <h4><a href="#">Elektrik malzemeleri almak istiyoruz</a></h4>
+                    <p>
+                        Alım adetlerimiz yüksek olacaktır Priz ,3 priz,4lu priz, 5li priz ,6li priz
+                    </p>
+                </td>
+                <td class="leads-info purchase"><p>Alım</p></td>
+                <td class="time">9 saat önce</td>
+                <td class="price">
+                    <div class="price-btn"><i class="fas fa-handshake credit"></i>Ücretsiz</div>
+                </td>
+                <td class="details"><a href="#">DETAYLAR</a></td>
+            </tr>
+        </table>
+
+        <div style="display: none;" class="mobile-request-border margin-bottom-1"></div>
+
+        <div class="request-area">
+            <div class="request-items">
+                <div class="country">
+                    <span class="flag-icon flag-icon-tr"></span>
+                </div>
+                <div class="info">
+                    <h4><a href="#">Lojistik hizmeti vermekteyiz</a></h4>
+                    <p>
+                        İhracat veya ithalat taleplerinize istinaden tüm nakliye sürecinizin operasyonunun organize edilmesi ve sorunsuz bir hizmet sunulması imkanı.
+                    </p>
+                </div>
+                <div class="type sell">
+                    <p>Alım</p>
+                </div>
+                <div class="date">
+                    <p>6 saat önce</p>
+                </div>
+                <div class="credit">
+                    <div class="price-btn">
+                        <i class="fas fa-handshake credit"></i>Ücretsiz
+                    </div>
+                </div>
+                <div class="details">
+                    <a href="#">DETAYLAR</a>
+                </div>
+            </div>
+            
+            <div style="width: 95%; margin: auto;" class="border-bottom-1"></div>
+            
+            <div class="request-items">
+                <div class="country">
+                    <span class="flag-icon flag-icon-tr"></span>
+                </div>
+                <div class="info">
+                    <h4><a href="#">Lojistik hizmeti vermekteyiz</a></h4>
+                    <p>
+                        İhracat veya ithalat taleplerinize istinaden tüm nakliye sürecinizin operasyonunun organize edilmesi ve sorunsuz bir hizmet sunulması imkanı.
+                    </p>
+                </div>
+                <div class="type">
+                    <p>Satım</p>
+                </div>
+                <div class="date">
+                    <p>6 saat önce</p>
+                </div>
+                <div class="credit">
+                    <div class="price-btn">
+                        <i class="fas fa-handshake credit"></i>Ücretsiz
+                    </div>
+                </div>
+                <div class="details">
+                    <a href="#">DETAYLAR</a>
+                </div>
+            </div>
+            
+            <div style="width: 95%; margin: auto;" class="border-bottom-1"></div>
+            <div class="request-items">
+                <div class="country">
+                    <span class="flag-icon flag-icon-tr"></span>
+                </div>
+                <div class="info">
+                    <h4><a href="#">Lojistik hizmeti vermekteyiz</a></h4>
+                    <p>
+                        İhracat veya ithalat taleplerinize istinaden tüm nakliye sürecinizin operasyonunun organize edilmesi ve sorunsuz bir hizmet sunulması imkanı.
+                    </p>
+                </div>
+                <div class="type">
+                    <p>Alım</p>
+                </div>
+                <div class="date">
+                    <p>6 saat önce</p>
+                </div>
+                <div class="credit">
+                    <div class="price-btn">
+                        <i class="fas fa-handshake credit"></i>Ücretsiz
+                    </div>
+                </div>
+                <div class="details">
+                    <a href="#">DETAYLAR</a>
+                </div>
+            </div>
+            
+            <div style="width: 95%; margin: auto;" class="border-bottom-1"></div>
+            <div class="request-items">
+                <div class="country">
+                    <span class="flag-icon flag-icon-tr"></span>
+                </div>
+                <div class="info">
+                    <h4><a href="#">Lojistik hizmeti vermekteyiz</a></h4>
+                    <p>
+                        İhracat veya ithalat taleplerinize istinaden tüm nakliye sürecinizin operasyonunun organize edilmesi ve sorunsuz bir hizmet sunulması imkanı.
+                    </p>
+                </div>
+                <div class="type">
+                    <p>Alım</p>
+                </div>
+                <div class="date">
+                    <p>6 saat önce</p>
+                </div>
+                <div class="credit">
+                    <div class="price-btn">
+                        <i class="fas fa-handshake credit"></i>Ücretsiz
+                    </div>
+                </div>
+                <div class="details">
+                    <a href="#">DETAYLAR</a>
+                </div>
+            </div>
+            
+            <div style="width: 95%; margin: auto;" class="border-bottom-1"></div>
+            <div class="request-items">
+                <div class="country">
+                    <span class="flag-icon flag-icon-fr"></span>
+                </div>
+                <div class="info">
+                    <h4><a href="#">Lojistik hizmeti vermekteyiz</a></h4>
+                    <p>
+                        İhracat veya ithalat taleplerinize istinaden tüm nakliye sürecinizin operasyonunun organize edilmesi ve sorunsuz bir hizmet sunulması imkanı.
+                    </p>
+                </div>
+                <div class="type">
+                    <p>Alım</p>
+                </div>
+                <div class="date">
+                    <p>6 saat önce</p>
+                </div>
+                <div class="credit">
+                    <div class="price-btn">
+                        <i class="fas fa-handshake credit"></i>Ücretsiz
+                    </div>
+                </div>
+                <div class="details">
+                    <a href="#">DETAYLAR</a>
+                </div>
+            </div>
+            
+            <div style="width: 95%; margin: auto;" class="border-bottom-1"></div>
+            <div class="request-items">
+                <div class="country">
+                    <span class="flag-icon flag-icon-tr"></span>
+                </div>
+                <div class="info">
+                    <h4><a href="#">Lojistik hizmeti vermekteyiz</a></h4>
+                    <p>
+                        İhracat veya ithalat taleplerinize istinaden tüm nakliye sürecinizin operasyonunun organize edilmesi ve sorunsuz bir hizmet sunulması imkanı.
+                    </p>
+                </div>
+                <div class="type">
+                    <p>Alım</p>
+                </div>
+                <div class="date">
+                    <p>6 saat önce</p>
+                </div>
+                <div class="credit">
+                    <div class="price-btn">
+                        <i class="fas fa-handshake credit"></i>Ücretsiz
+                    </div>
+                </div>
+                <div class="details">
+                    <a href="#">DETAYLAR</a>
+                </div>
+            </div>
+            
+            <div style="width: 95%; margin: auto;" class="border-bottom-1"></div>
+
+        </div>
+
+        <div class="btn-div">
+            <span class="btn"><a href="#">Tüm Talepleri Görüntüle</a></span>
+        </div>
+    </section>
+
+    <section class="process">
+        <div class="process-area">
+            <h2>Nasıl Çalışıyoruz</h2>
+            <div class="steps-top">
+                <form>
+                    <ul class="steps">
+                        <a id="process1" class="active-box"><li class="stepOne">1</li></a>
+                        <a id="process2"><li class="stepTwo">2</li></a>
+                        <a id="process3"><li class="stepThree">3</li></a>
+                    </ul>
+                </form>
+                <div class="tab-content">
+                    <div class="tabe-pane active" id="tabe-pane1">
+                        <div class="step-left">
+                            <img src="https://cdn.turkishexporter.com.tr/storage/images/general/group-102.png" alt="">
+                        </div>
+                        <div class="step-right">
+                            <span>ADIM BİR</span>
+                            <strong>Turkishexporter'a Katılın</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quidem ipsa! Obcaecati repellat aliquam nihil dolores facilis odio excepturi dolorum, voluptatum, perferendis, veritatis laborum soluta totam? Nesciunt, adipisci praesentium? Sapiente, aperiam nihil ea tenetur voluptatem incidunt dicta quasi. Magni dignissimos iure, autem natus saepe soluta sapiente nemo quaerat. At culpa omnis eius officia cum ipsum nam esse tenetur numquam incidunt!</p>
+                            <div class="prev-next">
+                                <a class="next-step active-btn" id="next1">SONRAKİ ADIM</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabe-pane" id="tabe-pane2">
+                        <div class="step-left">
+                            <img src="https://cdn.turkishexporter.com.tr/storage/images/general/step2.png" alt="">
+                        </div>
+                        <div class="step-right">
+                            <span>ADIM İKİ</span>
+                            <strong>İnceleme İsteği</strong>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum qui distinctio nulla corporis, a officia nisi. Quasi possimus eveniet harum corrupti totam aliquam quod vero ea veritatis mollitia, iusto maiores? Reprehenderit quisquam fugiat consequuntur.</p>
+                            <div class="prev-next">
+                                <a class="prev-step" id="prev2">ÖNCEKİ ADIM</a>
+                                <a class="next-step" id="next2">SONRAKİ ADIM</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabe-pane" id="tabe-pane3">
+                        <div class="step-left">
+                            <img style="width: 157px; height: 196px;" src="https://cdn.turkishexporter.com.tr/storage/images/general/step3.png" alt="">
+                        </div>
+                        <div class="step-right">
+                            <span>ADIM ÜÇ</span>
+                            <strong>Başarılı Ticaret</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quidem ipsa! Obcaecati repellat aliquam nihil dolores facilis odio excepturi dolorum, voluptatum, perferendis, veritatis laborum soluta totam? Nesciunt, adipisci praesentium? Sapiente, aperiam nihil ea tenetur voluptatem incidunt dicta quasi. Magni dignissimos iure, autem natus saepe soluta sapiente nemo quaerat. At culpa omnis eius officia cum ipsum nam esse tenetur numquam incidunt!</p>
+                            <div class="prev-next">
+                                <a class="prev-step" id="prev3">ÖNCEKİ ADIM</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offer">
+        <h2>Neden Bize Katılın?</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus nihil eum temporibus quam nostrum rerum quibusdam. Beatae sunt rerum facere aut voluptas corporis consectetur magnam consequatur ipsa suscipit commodi porro minima quasi adipisci dignissimos dolorem explicabo amet, culpa cupiditate vero.</p>
+        <div class="cards">
+            <div class="card-1">
+                <img src="https://cdn.turkishexporter.com.tr/storage/icons/home/home-membership-img.png" alt="">
+                <h2>Kolay Üyelik</h2>
+                <p>17 yıllık özel sektör ihracatı geliştirme merkezi deneyimi ile alanında en eski ve halen tek özel girişimi.Yıllık 36,000 ila 50,000 adet başka herhangi bir kaynakta bulamayacağınız güncel ve doğrudan alım talepleri içeren ticari fırsatlar.Üyelerimize aylık 300.000 adeti aşan mesaj sayısı her üyesi için aktif yoğun hizmet. </p>
+            </div>
+            <div class="card-2">
+                <img src="https://cdn.turkishexporter.com.tr/storage/icons/home/home-request-img.png" alt="">
+                <h2>Kolay Üyelik</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ex vitae fugiat nostrum a placeat?</p>
+            </div>
+            <div class="card-3">
+                <img src="https://cdn.turkishexporter.com.tr/storage/icons/home/home-request-img.png" alt="">
+                <h2>Kolay Üyelik</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veniam quasi aperiam?</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="ads">
+        <div class="container">
+            <div class="company-advertisement">
+                <h2>Yüzlerce Şirket, Binlerce Ürün Burada Sizi Bekliyor!</h2>
+                <a href="#">Tüm Şirketleri Görüntüle</a>
+            </div>
+            <div class="chat-connect">
+                <div class="chat-left">
+                    <img src="https://cdn.turkishexporter.com.tr/storage/icons/home/starting-chat-img.png" alt="">
+                </div>
+                <div class="chat-right">
+                    <h3>Aradığınız Ürünleri Bulamadınız mı?</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus doloremque iure nesciunt, explicabo consectetur harum adipisci ad labore aspernatur odit!</p>
+                    <a href="#">Sohbete Başlayın</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="introduce">
+        <div class="container">
+            <h4>ÜRÜNLERİNİZİ FİRMALARLA EN HIZLI VE GÜVENİLİR ŞEKİLDE ULAŞTIRIYORUZ.</h4>
+            <div>
+                <span>TÜRK FİRMASI</span>
+                <strong>186.856</strong>
+            </div>
+            <div>
+                <span>KULLANICILAR</span>
+                <strong>2.099.428</strong>
+            </div>
+            <div>
+                <span>MESAJ</span>
+                <strong>28.675.754</strong>
+            </div>
+            <div>
+                <span>FİRMA PROFİLLERİ</span>
+                <strong>450.360</strong>
+            </div>
+            <div>
+                <span>İLANLAR</span>
+                <strong>463.687</strong>
+            </div>
+        </div>
+    </section>
+
+    <section class="succes-stories">
+       <div class="container">
+            <div class="stories-left">
+                <h3>İhracatta Başarı Hikayeleri</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit distinctio explicabo quas! Laudantium molestiae tempore quia voluptatibus, repellendus excepturi facere cumque voluptates ut! Numquam laudantium dignissimos corrupti quo debitis?</p>
+                <a href="#">Tüm Hikayeler</a>
+            </div>
+            <div class="stories-right">
+                <div class="swiper one mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <div class="swiper-left">
+                            <h3>2 Yılda 15 Ülkeye Medikal Cihaz İhracatı Gerçekleştirdi!</h3>
+                            <p>2019 yılında hastane ekipmanları ve medikal malzeme ihracatı yapmak üzere kurulan Brothers Medikal, e-ihracat platformu TurkishExporter'ın katkısıyla kısa sürede 15 ülkeye ihracat gerçekleştirdi. 
+    
+                                COVID-19 salgınıyla birlikte dikkatleri üzerine çeken sektörlerden biri de medikal oldu. Tüm dünyada büyük bir talep artışının yaşanmasıyla Türk firmalar ürün yetiştirmek için büyük çaba sarf etti. Özellikle yakın coğrafyadaki ülkeler için Türkiye'nin önemli bir sağlık ekipmanı sağlayıcısı olduğunu söyleyen Brothers Medikal Genel Müdürü Soner Bilgiç, "Anlık ve oldukça kritik olan hastane ekipmanları ve medikal malzemelerde çevre ülkeler için Türkiye en şeffaf ve erişilebilir ülke." dedi.
+                                
+                                E-ihracat nitelikli talepleri ayağımıza getiriyor
+                                Yüzlerce Türk üreticinin ürünlerini hem geleneksel hem de dijital dünyanın tüm araçlarını kullanarak farklı ülkelere ulaştırdıklarını belirten Soner Bilgiç, "TurkishExporter ile tanıştıktan sonra çok kısa bir sürede ihracat yaptığımız ülke sayısı 15 oldu. Aralarında Fransa, İtalya, Almanya ve Macaristan gibi Avrupa ülkelerinin yanı sıra Özbekistan, Libya ve Tunus gibi farklı coğrafyalara da ulaştı olduk. TurkishExporter sistemi üzerinden dünyanın birçok noktasından taleple bir araya gelip ihtiyaçlarını öğrenebiliyor, bu ihtiyaçlara yönelik çözümlerimizi ve tekliflerimizi iletebiliyoruz." ifadelerini kullandı.
+                                
+                                Türkiye medikal cihaz ve hastane ekipmanları alanında rüştünü ispatladı
+                                Pandeminin sektör için büyük bir sınav olduğunu ve bu sınavı Türk şirketlerin başarıyla geçtiğini söyleyen Soner Bilgiç, "Kendimizi pek alışık olmadığımız ve tam anlamıyla da hazırlıklı olduğumuzu söyleyemeyeceğimiz bir salgının içinde bulduk. Bu süreçte en önemli ihtiyaç hastane ekipmanları ve medikal cihazlar oldu. Söz konusu insan hayatı olunca ve bu global bir kriz haline dönünce hızlı hareket etmeniz ve ihtiyacı tam anlamıyla karşılamanız gerekiyor. Gerek üreticiler gerekse ihracatçılar pandemi dönemini oldukça profesyonel yönetti ve rüştünü ispatladı." şeklinde konuştu.</p>
+                                <a href="#">Daha Fazla Oku</a>
+                          </div>
+                          <div class="swiper-right">
+                              <img src="https://st2.depositphotos.com/1874273/7223/v/600/depositphotos_72237437-stock-illustration-sign-of-letters-c-and.jpg" alt="">
+                              <strong>Berkay Tufan</strong>
+                              <span>Genel Müdür</span>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="swiper-left">
+                            <h3>2 Yılda 15 Ülkeye Medikal Cihaz İhracatı Gerçekleştirdi!</h3>
+                            <p>2019 yılında hastane ekipmanları ve medikal malzeme ihracatı yapmak üzere kurulan Brothers Medikal, e-ihracat platformu TurkishExporter'ın katkısıyla kısa sürede 15 ülkeye ihracat gerçekleştirdi. 
+    
+                                COVID-19 salgınıyla birlikte dikkatleri üzerine çeken sektörlerden biri de medikal oldu. Tüm dünyada büyük bir talep artışının yaşanmasıyla Türk firmalar ürün yetiştirmek için büyük çaba sarf etti. Özellikle yakın coğrafyadaki ülkeler için Türkiye'nin önemli bir sağlık ekipmanı sağlayıcısı olduğunu söyleyen Brothers Medikal Genel Müdürü Soner Bilgiç, "Anlık ve oldukça kritik olan hastane ekipmanları ve medikal malzemelerde çevre ülkeler için Türkiye en şeffaf ve erişilebilir ülke." dedi.
+                                
+                                E-ihracat nitelikli talepleri ayağımıza getiriyor
+                                Yüzlerce Türk üreticinin ürünlerini hem geleneksel hem de dijital dünyanın tüm araçlarını kullanarak farklı ülkelere ulaştırdıklarını belirten Soner Bilgiç, "TurkishExporter ile tanıştıktan sonra çok kısa bir sürede ihracat yaptığımız ülke sayısı 15 oldu. Aralarında Fransa, İtalya, Almanya ve Macaristan gibi Avrupa ülkelerinin yanı sıra Özbekistan, Libya ve Tunus gibi farklı coğrafyalara da ulaştı olduk. TurkishExporter sistemi üzerinden dünyanın birçok noktasından taleple bir araya gelip ihtiyaçlarını öğrenebiliyor, bu ihtiyaçlara yönelik çözümlerimizi ve tekliflerimizi iletebiliyoruz." ifadelerini kullandı.
+                                
+                                Türkiye medikal cihaz ve hastane ekipmanları alanında rüştünü ispatladı
+                                Pandeminin sektör için büyük bir sınav olduğunu ve bu sınavı Türk şirketlerin başarıyla geçtiğini söyleyen Soner Bilgiç, "Kendimizi pek alışık olmadığımız ve tam anlamıyla da hazırlıklı olduğumuzu söyleyemeyeceğimiz bir salgının içinde bulduk. Bu süreçte en önemli ihtiyaç hastane ekipmanları ve medikal cihazlar oldu. Söz konusu insan hayatı olunca ve bu global bir kriz haline dönünce hızlı hareket etmeniz ve ihtiyacı tam anlamıyla karşılamanız gerekiyor. Gerek üreticiler gerekse ihracatçılar pandemi dönemini oldukça profesyonel yönetti ve rüştünü ispatladı." şeklinde konuştu.</p>
+                                <a href="#">Daha Fazla Oku</a>
+                          </div>
+                          <div class="swiper-right">
+                              <img src="https://us.123rf.com/450wm/fadilsign/fadilsign2002/fadilsign200200011/140862115-lorem-ipsum-nature-ecology-tree-logo-company-image.jpg?ver=6    " alt="">
+                              <strong>Berkay Tufan</strong>
+                              <span>Genel Müdür</span>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="swiper-left">
+                            <h3>2 Yılda 15 Ülkeye Medikal Cihaz İhracatı Gerçekleştirdi!</h3>
+                            <p>2019 yılında hastane ekipmanları ve medikal malzeme ihracatı yapmak üzere kurulan Brothers Medikal, e-ihracat platformu TurkishExporter'ın katkısıyla kısa sürede 15 ülkeye ihracat gerçekleştirdi. 
+    
+                                COVID-19 salgınıyla birlikte dikkatleri üzerine çeken sektörlerden biri de medikal oldu. Tüm dünyada büyük bir talep artışının yaşanmasıyla Türk firmalar ürün yetiştirmek için büyük çaba sarf etti. Özellikle yakın coğrafyadaki ülkeler için Türkiye'nin önemli bir sağlık ekipmanı sağlayıcısı olduğunu söyleyen Brothers Medikal Genel Müdürü Soner Bilgiç, "Anlık ve oldukça kritik olan hastane ekipmanları ve medikal malzemelerde çevre ülkeler için Türkiye en şeffaf ve erişilebilir ülke." dedi.
+                                
+                                E-ihracat nitelikli talepleri ayağımıza getiriyor
+                                Yüzlerce Türk üreticinin ürünlerini hem geleneksel hem de dijital dünyanın tüm araçlarını kullanarak farklı ülkelere ulaştırdıklarını belirten Soner Bilgiç, "TurkishExporter ile tanıştıktan sonra çok kısa bir sürede ihracat yaptığımız ülke sayısı 15 oldu. Aralarında Fransa, İtalya, Almanya ve Macaristan gibi Avrupa ülkelerinin yanı sıra Özbekistan, Libya ve Tunus gibi farklı coğrafyalara da ulaştı olduk. TurkishExporter sistemi üzerinden dünyanın birçok noktasından taleple bir araya gelip ihtiyaçlarını öğrenebiliyor, bu ihtiyaçlara yönelik çözümlerimizi ve tekliflerimizi iletebiliyoruz." ifadelerini kullandı.
+                                
+                                Türkiye medikal cihaz ve hastane ekipmanları alanında rüştünü ispatladı
+                                Pandeminin sektör için büyük bir sınav olduğunu ve bu sınavı Türk şirketlerin başarıyla geçtiğini söyleyen Soner Bilgiç, "Kendimizi pek alışık olmadığımız ve tam anlamıyla da hazırlıklı olduğumuzu söyleyemeyeceğimiz bir salgının içinde bulduk. Bu süreçte en önemli ihtiyaç hastane ekipmanları ve medikal cihazlar oldu. Söz konusu insan hayatı olunca ve bu global bir kriz haline dönünce hızlı hareket etmeniz ve ihtiyacı tam anlamıyla karşılamanız gerekiyor. Gerek üreticiler gerekse ihracatçılar pandemi dönemini oldukça profesyonel yönetti ve rüştünü ispatladı." şeklinde konuştu.</p>
+                                <a href="#">Daha Fazla Oku</a>
+                          </div>
+                          <div class="swiper-right">
+                              <img src="https://st2.depositphotos.com/1874273/7223/v/600/depositphotos_72237437-stock-illustration-sign-of-letters-c-and.jpg" alt="">
+                              <strong>Berkay Tufan</strong>
+                              <span>Genel Müdür</span>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="swiper-left">
+                            <h3>2 Yılda 15 Ülkeye Medikal Cihaz İhracatı Gerçekleştirdi!</h3>
+                            <p>2019 yılında hastane ekipmanları ve medikal malzeme ihracatı yapmak üzere kurulan Brothers Medikal, e-ihracat platformu TurkishExporter'ın katkısıyla kısa sürede 15 ülkeye ihracat gerçekleştirdi. 
+    
+                                COVID-19 salgınıyla birlikte dikkatleri üzerine çeken sektörlerden biri de medikal oldu. Tüm dünyada büyük bir talep artışının yaşanmasıyla Türk firmalar ürün yetiştirmek için büyük çaba sarf etti. Özellikle yakın coğrafyadaki ülkeler için Türkiye'nin önemli bir sağlık ekipmanı sağlayıcısı olduğunu söyleyen Brothers Medikal Genel Müdürü Soner Bilgiç, "Anlık ve oldukça kritik olan hastane ekipmanları ve medikal malzemelerde çevre ülkeler için Türkiye en şeffaf ve erişilebilir ülke." dedi.
+                                
+                                E-ihracat nitelikli talepleri ayağımıza getiriyor
+                                Yüzlerce Türk üreticinin ürünlerini hem geleneksel hem de dijital dünyanın tüm araçlarını kullanarak farklı ülkelere ulaştırdıklarını belirten Soner Bilgiç, "TurkishExporter ile tanıştıktan sonra çok kısa bir sürede ihracat yaptığımız ülke sayısı 15 oldu. Aralarında Fransa, İtalya, Almanya ve Macaristan gibi Avrupa ülkelerinin yanı sıra Özbekistan, Libya ve Tunus gibi farklı coğrafyalara da ulaştı olduk. TurkishExporter sistemi üzerinden dünyanın birçok noktasından taleple bir araya gelip ihtiyaçlarını öğrenebiliyor, bu ihtiyaçlara yönelik çözümlerimizi ve tekliflerimizi iletebiliyoruz." ifadelerini kullandı.
+                                
+                                Türkiye medikal cihaz ve hastane ekipmanları alanında rüştünü ispatladı
+                                Pandeminin sektör için büyük bir sınav olduğunu ve bu sınavı Türk şirketlerin başarıyla geçtiğini söyleyen Soner Bilgiç, "Kendimizi pek alışık olmadığımız ve tam anlamıyla da hazırlıklı olduğumuzu söyleyemeyeceğimiz bir salgının içinde bulduk. Bu süreçte en önemli ihtiyaç hastane ekipmanları ve medikal cihazlar oldu. Söz konusu insan hayatı olunca ve bu global bir kriz haline dönünce hızlı hareket etmeniz ve ihtiyacı tam anlamıyla karşılamanız gerekiyor. Gerek üreticiler gerekse ihracatçılar pandemi dönemini oldukça profesyonel yönetti ve rüştünü ispatladı." şeklinde konuştu.</p>
+                                <a href="#">Daha Fazla Oku</a>
+                          </div>
+                          <div class="swiper-right">
+                              <img src="https://st2.depositphotos.com/1874273/7223/v/600/depositphotos_72237437-stock-illustration-sign-of-letters-c-and.jpg" alt="">
+                              <strong>Berkay Tufan</strong>
+                              <span>Genel Müdür</span>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="swiper-left">
+                            <h3>2 Yılda 15 Ülkeye Medikal Cihaz İhracatı Gerçekleştirdi!</h3>
+                            <p>2019 yılında hastane ekipmanları ve medikal malzeme ihracatı yapmak üzere kurulan Brothers Medikal, e-ihracat platformu TurkishExporter'ın katkısıyla kısa sürede 15 ülkeye ihracat gerçekleştirdi. 
+    
+                                COVID-19 salgınıyla birlikte dikkatleri üzerine çeken sektörlerden biri de medikal oldu. Tüm dünyada büyük bir talep artışının yaşanmasıyla Türk firmalar ürün yetiştirmek için büyük çaba sarf etti. Özellikle yakın coğrafyadaki ülkeler için Türkiye'nin önemli bir sağlık ekipmanı sağlayıcısı olduğunu söyleyen Brothers Medikal Genel Müdürü Soner Bilgiç, "Anlık ve oldukça kritik olan hastane ekipmanları ve medikal malzemelerde çevre ülkeler için Türkiye en şeffaf ve erişilebilir ülke." dedi.
+                                
+                                E-ihracat nitelikli talepleri ayağımıza getiriyor
+                                Yüzlerce Türk üreticinin ürünlerini hem geleneksel hem de dijital dünyanın tüm araçlarını kullanarak farklı ülkelere ulaştırdıklarını belirten Soner Bilgiç, "TurkishExporter ile tanıştıktan sonra çok kısa bir sürede ihracat yaptığımız ülke sayısı 15 oldu. Aralarında Fransa, İtalya, Almanya ve Macaristan gibi Avrupa ülkelerinin yanı sıra Özbekistan, Libya ve Tunus gibi farklı coğrafyalara da ulaştı olduk. TurkishExporter sistemi üzerinden dünyanın birçok noktasından taleple bir araya gelip ihtiyaçlarını öğrenebiliyor, bu ihtiyaçlara yönelik çözümlerimizi ve tekliflerimizi iletebiliyoruz." ifadelerini kullandı.
+                                
+                                Türkiye medikal cihaz ve hastane ekipmanları alanında rüştünü ispatladı
+                                Pandeminin sektör için büyük bir sınav olduğunu ve bu sınavı Türk şirketlerin başarıyla geçtiğini söyleyen Soner Bilgiç, "Kendimizi pek alışık olmadığımız ve tam anlamıyla da hazırlıklı olduğumuzu söyleyemeyeceğimiz bir salgının içinde bulduk. Bu süreçte en önemli ihtiyaç hastane ekipmanları ve medikal cihazlar oldu. Söz konusu insan hayatı olunca ve bu global bir kriz haline dönünce hızlı hareket etmeniz ve ihtiyacı tam anlamıyla karşılamanız gerekiyor. Gerek üreticiler gerekse ihracatçılar pandemi dönemini oldukça profesyonel yönetti ve rüştünü ispatladı." şeklinde konuştu.</p>
+                                <a href="#">Daha Fazla Oku</a>
+                          </div>
+                          <div class="swiper-right">
+                              <img src="https://st2.depositphotos.com/1874273/7223/v/600/depositphotos_72237437-stock-illustration-sign-of-letters-c-and.jpg" alt="">
+                              <strong>Berkay Tufan</strong>
+                              <span>Genel Müdür</span>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="swiper-left">
+                            <h3>2 Yılda 15 Ülkeye Medikal Cihaz İhracatı Gerçekleştirdi!</h3>
+                            <p>2019 yılında hastane ekipmanları ve medikal malzeme ihracatı yapmak üzere kurulan Brothers Medikal, e-ihracat platformu TurkishExporter'ın katkısıyla kısa sürede 15 ülkeye ihracat gerçekleştirdi. 
+    
+                                COVID-19 salgınıyla birlikte dikkatleri üzerine çeken sektörlerden biri de medikal oldu. Tüm dünyada büyük bir talep artışının yaşanmasıyla Türk firmalar ürün yetiştirmek için büyük çaba sarf etti. Özellikle yakın coğrafyadaki ülkeler için Türkiye'nin önemli bir sağlık ekipmanı sağlayıcısı olduğunu söyleyen Brothers Medikal Genel Müdürü Soner Bilgiç, "Anlık ve oldukça kritik olan hastane ekipmanları ve medikal malzemelerde çevre ülkeler için Türkiye en şeffaf ve erişilebilir ülke." dedi.
+                                
+                                E-ihracat nitelikli talepleri ayağımıza getiriyor
+                                Yüzlerce Türk üreticinin ürünlerini hem geleneksel hem de dijital dünyanın tüm araçlarını kullanarak farklı ülkelere ulaştırdıklarını belirten Soner Bilgiç, "TurkishExporter ile tanıştıktan sonra çok kısa bir sürede ihracat yaptığımız ülke sayısı 15 oldu. Aralarında Fransa, İtalya, Almanya ve Macaristan gibi Avrupa ülkelerinin yanı sıra Özbekistan, Libya ve Tunus gibi farklı coğrafyalara da ulaştı olduk. TurkishExporter sistemi üzerinden dünyanın birçok noktasından taleple bir araya gelip ihtiyaçlarını öğrenebiliyor, bu ihtiyaçlara yönelik çözümlerimizi ve tekliflerimizi iletebiliyoruz." ifadelerini kullandı.
+                                
+                                Türkiye medikal cihaz ve hastane ekipmanları alanında rüştünü ispatladı
+                                Pandeminin sektör için büyük bir sınav olduğunu ve bu sınavı Türk şirketlerin başarıyla geçtiğini söyleyen Soner Bilgiç, "Kendimizi pek alışık olmadığımız ve tam anlamıyla da hazırlıklı olduğumuzu söyleyemeyeceğimiz bir salgının içinde bulduk. Bu süreçte en önemli ihtiyaç hastane ekipmanları ve medikal cihazlar oldu. Söz konusu insan hayatı olunca ve bu global bir kriz haline dönünce hızlı hareket etmeniz ve ihtiyacı tam anlamıyla karşılamanız gerekiyor. Gerek üreticiler gerekse ihracatçılar pandemi dönemini oldukça profesyonel yönetti ve rüştünü ispatladı." şeklinde konuştu.</p>
+                                <a href="#">Daha Fazla Oku</a>
+                          </div>
+                          <div class="swiper-right">
+                              <img src="https://st2.depositphotos.com/1874273/7223/v/600/depositphotos_72237437-stock-illustration-sign-of-letters-c-and.jpg" alt="">
+                              <strong>Berkay Tufan</strong>
+                              <span>Genel Müdür</span>
+                          </div>
+                      </div>
+                      
+                    </div>
+                    <div class="swiper-pagination one"></div>
+                  </div>
+            </div>
+       </div>
+    </section>
+
+    <section class="vip">
+        <h2>VIP ÜYELER</h2>
+        <span>Türkiyede üreticiler, tedarikçiler, ihracatçılar ve ürünler</span>
+        <div class="swiper mySwiper two">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <img src="https://cdn.turkishexporter.com.tr//storage/images/companies/logo/6414baf2-ddcb-4f66-97b2-02941afb53d5.png" alt="">
+                  <a href="#">Şirket İsmi LTD.ŞTİ.</a>
+              </div>
+              <div class="swiper-slide">
+                  <img src="https://cdn.turkishexporter.com.tr//storage/images/companies/logo/d290455c-5cf9-49fb-8898-9f148bd4eeb1.jpg" alt="">
+                  <a href="#">Şirket İsmi LTD.ŞTİ.</a>
+              </div>
+              <div class="swiper-slide">
+                  <img src="https://cdn.turkishexporter.com.tr//storage/images/companies/logo/7b9c2231-9614-4761-bc8e-6488d7845a76.png" alt="">
+                  <a href="#">Şirket İsmi LTD.ŞTİ.</a>
+              </div>
+              <div class="swiper-slide">
+                  <img src="https://cdn.turkishexporter.com.tr//storage/images/companies/logo/81577e8d-06af-4a1b-8146-33eb5ae2eee0.png" alt="">
+                  <a href="#">Şirket İsmi LTD.ŞTİ.</a>
+              </div>
+              <div class="swiper-slide">
+                  <img src="https://cdn.turkishexporter.com.tr//storage/images/companies/logo/d290455c-5cf9-49fb-8898-9f148bd4eeb1.jpg" alt="">
+                  <a href="#">Şirket İsmi LTD.ŞTİ.</a>
+              </div>
+              <div class="swiper-slide">
+                  <img src="https://cdn.turkishexporter.com.tr//storage/images/companies/logo/6414baf2-ddcb-4f66-97b2-02941afb53d5.png" alt="">
+                  <a href="#">Şirket İsmi LTD.ŞTİ.</a>
+              </div>
+              <div class="swiper-slide">
+                  <img src="https://cdn.turkishexporter.com.tr//storage/images/companies/logo/81577e8d-06af-4a1b-8146-33eb5ae2eee0.png" alt="">
+                  <a href="#">Şirket İsmi LTD.ŞTİ.</a>
+              </div>
+              <div class="swiper-slide">
+                  <img src="https://cdn.turkishexporter.com.tr//storage/images/companies/logo/6414baf2-ddcb-4f66-97b2-02941afb53d5.png" alt="">
+                  <a href="#">Şirket İsmi LTD.ŞTİ.</a>
+              </div>
+              <div class="swiper-slide">
+                  <img src="https://cdn.turkishexporter.com.tr//storage/images/companies/logo/d290455c-5cf9-49fb-8898-9f148bd4eeb1.jpg" alt="">
+                  <a href="#">Şirket İsmi LTD.ŞTİ.</a>
+              </div>
+              <div class="swiper-slide">
+                  <img src="https://cdn.turkishexporter.com.tr//storage/images/companies/logo/7b9c2231-9614-4761-bc8e-6488d7845a76.png" alt="">
+                  <a href="#">Şirket İsmi LTD.ŞTİ.</a>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+    <div class="trial">
+        <div class="trial-ads">
+            <div class="trial-area">
+                <div class="trial-area-left">
+                    <h3>14 günlük ücretsiz denemeye başlayın!</h3>
+                    <span>TurkishExporter a şimdi ücretsiz üye olun hiçbir ücret ödemeden 14 gün ücretsiz denemeye başlayın!</span>
+                </div>
+                <div class="trial-area-right">
+                    <a href="#">Şimdi Başlayın</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="all-categories">
+        <div class="categories-area">
+            <h3>TÜM KATEGORİLER</h3>
+            <ul>
+                <li>
+                    <i class="fas fa-cubes"></i>
+                    <a href="#">Ambalaj Kağıt Matbaa</a>
+                </li>
+                <li>
+                    <i class="fad fa-child"></i>
+                    <a href="#">Bebek Ürünleri ve Aksesuarlar</a>
+                </li>
+                <li>
+                    <i class="fas fa-wine-glass-alt"></i>
+                    <a href="#">Beyaz Eşya Küçük Ev Aletleri</a>
+                </li>
+                <li>
+                    <i class="fad fa-laptop"></i>
+                    <a href="#">Bilişim ve İletişim Teknolojileri</a>
+                </li>
+                <li>
+                    <i class="fad fa-recycle"></i>
+                    <a href="#">Çevre ve Geri Dönüşüm</a>
+                </li>
+                <li>
+                    <i class="fad fa-ship"></i>
+                    <a href="#">Deniz Araç ve Gereçleri</a>
+                </li>
+                <li>
+                    <i class="fas fa-shoe-prints"></i>
+                    <a href="#">Deri Ürünleri ve Ayakkabı</a>
+                </li>
+                <li>
+                    <i class="fas fa-bolt"></i>
+                    <a href="#">Elektrik ve Elektronik</a>
+                </li>
+                <li>
+                    <i class="fad fa-fingerprint"></i>
+                    <a href="#">Emniyet ve Güvenlik Ekipmanları</a>
+                </li>
+                <li>
+                    <i class="fas fa-asterisk"></i>
+                    <a href="#">Endüstriyel Ürünler</a>
+                </li>
+                <li>
+                    <i class="fad fa-lightbulb"></i>
+                    <a href="#">Ambalaj Kağıt Matbaa</a>
+                </li>
+                <li>
+                    <i class="fad fa-lightbulb"></i>
+                    <a href="#">Enerji Sektörü</a>
+                </li>
+                <li>
+                    <i class="fas fa-lemon"></i>
+                    <a href="#">Gıda Sanayii</a>
+                </li>
+                <li>
+                    <i class="fas fa-tree"></i>
+                    <a href="#">Hayvancılık</a>
+                </li>
+                <li>
+                    <i class="fas fa-cut"></i>
+                    <a href="#">Hazır Giyim - Moda</a>
+                </li>
+                <li>
+                    <i class="fas fa-spray-can"></i>
+                    <a href="#">Hijyen - Temizlik Ürünleri</a>
+                </li>
+                <li>
+                    <i class="fas fa-luggage-cart"></i>
+                    <a href="#">Hizmet Sektörü</a>
+                </li>
+                <li>
+                    <i class="fas fa-gift"></i>
+                    <a href="#">Hobi Eğlence Dekorasyon</a>
+                </li>
+                <li>
+                    <i class="fas fa-asterisk"></i>
+                    <a href="#">Horeca</a>
+                </li>
+                <li>
+                    <i class="fas fa-thermometer"></i>
+                    <a href="#">Isıtma Soğutma Havalandırma</a>
+                </li>
+                <li>
+                    <i class="fas fa-handshake"></i>
+                    <a href="#">İhracat - İthalat - Ticari Faaliyetler</a>
+                </li>
+                <li>
+                    <i class="fas fa-pencil"></i>
+                    <a href="#">Kırtasiye, Okul ve Ofis Gereçleri</a>
+                </li>
+                <li>
+                    <i class="fas fa-flask"></i>
+                    <a href="#">Kimya Sanayii</a>
+                </li>
+                <li>
+                    <i class="fas fa-shower"></i>
+                    <a href="#">Kozmetik Ürünler</a>
+                </li>
+                <li>
+                    <i class="fas fa-cogs"></i>
+                    <a href="#">Makine Sanayii</a>
+                </li>
+                <li>
+                    <i class="fas fa-plus"></i>
+                    <a href="#">Medikal Ürünler - Sağlık - İlaç Sanayii</a>
+                </li>
+                <li>
+                    <i class="fas fa-magnet"></i>
+                    <a href="#">Mermer Madencilik</a>
+                </li>
+                <li>
+                    <i class="fas fa-gavel"></i>
+                    <a href="#">Metal Demir Çelik</a>
+                </li>
+                <li>
+                    <i class="fas fa-tree"></i>
+                    <a href="#">Mobilya</a>
+                </li>
+                <li>
+                    <i class="fas fa-bath"></i>
+                    <a href="#">Mutfak Gereçleri Züccaciye</a>
+                </li>
+                <li>
+                    <i class="fas fa-gem"></i>
+                    <a href="#">Mücevherat - Takı - Bijuteri</a>
+                </li>
+                <li>
+                    <i class="fas fa-cannabis"></i>
+                    <a href="#">Orman Ürünleri</a>
+                </li>
+                <li>
+                    <i class="fas fa-car"></i>
+                    <a href="#">Otomotiv Sanayii</a>
+                </li>
+                <li>
+                    <i class="fas fa-asterisk"></i>
+                    <a href="#">Plastik Lastik Sanayii</a>
+                </li>
+                <li>
+                    <i class="fas fa-gift"></i>
+                    <a href="#">Promosyon Hediyelik</a>
+                </li>
+                <li>
+                    <i class="fas fa-space-shuttle"></i>
+                    <a href="#">Savunma Sanayii</a>
+                </li>
+                <li>
+                    <i class="fas fa-volleyball-ball"></i>
+                    <a href="#">Spor Malzemeleri - Ekipmanlar</a>
+                </li>
+                <li>
+                    <i class="fas fa-tractor"></i>
+                    <a href="#">Tarım Endüstrisi</a>
+                </li>
+                <li>
+                    <i class="fas fa-sitemap"></i>
+                    <a href="#">Tarım Makineleri</a>
+                </li>
+                <li>
+                    <i class="fas fa-tshirt"></i>
+                    <a href="#">Tekstil Malzemeleri</a>
+                </li>
+                <li>
+                    <i class="fas fa-anchor"></i>
+                    <a href="#">Turizm</a>
+                </li>
+                <li>
+                    <i class="fas fa-building"></i>
+                    <a href="#">Yapı ve İnşaat Malzemeleri</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-contact-box">
+            <div class="social-contact-box-area">
+                <div class="area-left">
+                    <h1>Sektördeki değişiklikleri, son trendleri ve haberleri alın!</h1>
+                    <label>E-Posta</label>
+                    <div class="input-group">
+                        <input type="text">
+                        <a href="#">
+                            <i class="fa fa-long-arrow-alt-right"></i>
+                        </a>
+                    </div>
+                    <span>Bilgileriniz üçüncü taraflarla paylaşılmayacak.</span>
+                </div>
+                <div class="area-right">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="call-contact-box">
+            <div class="call-contact-box-area">
+                <div class="contact-item">
+                    <span>ÇAĞRI MERKEZİ</span>
+                    <a href="tel:4444444">
+                        <i class="fal fa-headset"></i>
+                        444 44 44
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <span>TELEFON</span>
+                    <a href="tel:+902162162116">
+                        <i class="far fa-phone"></i>
+                        +90 (216) 216 21 16
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <span>FAKS</span>
+                    <a href="tel:+902162162116">
+                        <i class="fal fa-fax"></i>
+                        +90 (216) 216 21 16
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="links-box">
+            <div class="links-box-area">
+                <div class="links">
+                    <strong>Kurumsal</strong>
+                    <ul>
+                        <li><a href="#">İhracatta Başarı Hikayeleri</a></li>
+                        <li><a href="#">Şirket Profili</a></li>
+                        <li><a href="#">Tarihçe</a></li>
+                        <li><a href="#">Misyonumuz Ve Vizyonumuz</a></li>
+                        <li><a href="#">Sosyal Sorumluklarımız</a></li>
+                        <li><a href="#">İnsan Kaynakları</a></li>
+                        <li><a href="#">Markalarımız</a></li>
+                        <li><a href="#">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <strong>İŞLEM MERKEZİ</strong>
+                    <ul>
+                        <li><a href="#">Ücretsiz Üye Ol</a></li>
+                        <li><a href="#">Giriş Yap</a></li>
+                        <li><a href="#">Ücretsiz Firma Ekle</a></li>
+                        <li><a href="#">Ücretsiz Ürün Ekle</a></li>
+                        <li><a href="#">Şifre Hatırlatma</a></li>
+                        <li><a href="#">Üyelik Aktivasyonu</a></li>
+                        <li><a href="#">Aktivasyon Gönder</a></li>
+                        <li><a href="#">E-Posta Gönder</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <strong>HIZLI ERİŞİM</strong>
+                    <ul>
+                        <li><a href="#">Firma İndeksi</a></li>
+                        <li><a href="#">Ürün İndeksi</a></li>
+                        <li><a href="#">TariTalep İndeksihçe</a></li>
+                        <li><a href="#">Benim Sayfam!</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <strong>HİZMETLERİMİZ</strong>
+                    <ul>
+                        <li><a href="#">Neden Biz</a></li>
+                        <li><a href="#">Üyelik Paketleri</a></li>
+                        <li><a href="#">Kredi Nedir?</a></li>
+                        <li><a href="#">Bültenler</a></li>
+                        <li><a href="#">Talep</a></li>
+                        <li><a href="#">SSS</a></li>
+                        <li><a href="#">Firmalara Göre Türkiye'den Ürünler</a></li>
+                        <li><a href="#">Türkiye'den İthalat İhracat Taleplerine Göre Ürünler</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <strong>İHRACAT BİLGİ MERKEZİ</strong>
+                    <ul>
+                        <li><a href="#">İstihbarat/Konişmento</a></li>
+                        <li><a href="#">DTH Hedef Pazar Analizi</a></li>
+                        <li><a href="#">Kolay İhracat Müşteri</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <strong class="img">
+                        <a href="#">
+                            <img src="https://cdn.turkishexporter.com.tr/storage/general/logo/te-logo.png" alt="">
+                        </a>
+                    </strong>
+                    <div class="footer-map">
+                        <img src="https://cdn.turkishexporter.com.tr/storage/general/ihracat-firsatlari/group-7.png" alt="">
+                    </div>
+                    <p class="footer-adress">Niyazibey İş Merkezi, Altayçeşme Mah Zuhal Sok. NO: 22/7 Maltepe İstanbul / TÜRKİYE</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-contact-information">
+            <div class="footer-contact-information-area">
+                <div class="footer-corp-info">
+                    <span>
+                        <strong>2021 © TurkishExporter</strong>
+                        Tüm Hakları Saklıdır.
+                    </span>
+                </div>
+                <div class="footer-corp-rule">
+                    <a href="#">Kurumsal Şartlar</a>
+                    <a href="#">Gizlilik Politikası</a>
+                    <a href="#">Yasal Uyarı</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
